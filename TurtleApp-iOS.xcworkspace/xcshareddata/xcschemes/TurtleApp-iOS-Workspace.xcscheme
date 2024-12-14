@@ -20,6 +20,34 @@
                ReferencedContainer = "container:TurtleApp-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92CBC966D21D2009CBA6DB89"
+               BuildableName = "TurtleApp_iOSTests.xctest"
+               BlueprintName = "TurtleApp-iOSTests"
+               ReferencedContainer = "container:TurtleApp-iOS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5A1D9E8E3B2BEEDBBFB605D6"
+               BuildableName = "TurtleApp_iOSUITests.xctest"
+               BlueprintName = "TurtleApp-iOSUITests"
+               ReferencedContainer = "container:TurtleApp-iOS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

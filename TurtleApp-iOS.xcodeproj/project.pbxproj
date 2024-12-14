@@ -3,92 +3,115 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0219B76E148E2163641D4D6D /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945565C051EB93794389DF4 /* SettingsScreen.swift */; };
+		11AD8E4A42EA476975CED859 /* ScheduleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FCB3CAE23932F96567173 /* ScheduleState.swift */; };
+		16AE27B8E718059F76F64CE0 /* TuistAssets+TurtleAppIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC0D76860D823EC54540DD /* TuistAssets+TurtleAppIOS.swift */; };
+		24DECAFCBB241B4BAAF5F13E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B7389ED48D045BB5AC36D /* ContentView.swift */; };
+		2C25144683E0ADD221296D26 /* TurtleAppIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E58AA509AAAC13535F55D6 /* TurtleAppIOSApp.swift */; };
+		35E0B994CA7BC19A7DB78CB1 /* SettingsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0341F4170CDA547EADC1B /* SettingsState.swift */; };
+		39FEA22F3F1534F88532819A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F948C0792D3B4E922A4B43EE /* Assets.xcassets */; };
+		431ACB01BD1BF51DED85BCDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4147F823C3D331AF249D29B9 /* Preview Assets.xcassets */; };
+		6409DCCAF46598F218C43314 /* Tabbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F645031245ADCDA819A85 /* Tabbable.swift */; };
+		7B5E8285166B8C82F1DA649F /* TurtleApp_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862A92F03D8D056B5310E15 /* TurtleApp_iOSTests.swift */; };
+		7C0DC9FD82E12B977738A170 /* TurtleApp_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F443045E21F9157D277E61 /* TurtleApp_iOSUITestsLaunchTests.swift */; };
+		897419B6F33E8633078AD789 /* ScheduleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED664B5DA8A0CE690952EDED /* ScheduleScreen.swift */; };
+		AC8C090B5E5E50FD02C03425 /* TuistBundle+TurtleAppIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0CC42F902E2D69D48D0CA9 /* TuistBundle+TurtleAppIOS.swift */; };
+		B9AA76C46A7EEB69D87BB6B9 /* TurtleApp_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456F2E3B1FA4C11E30ACF5E /* TurtleApp_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		46F68C5D2D0CD30200F8A54D /* PBXContainerItemProxy */ = {
+		5FBCEAC32D425A83AFC39223 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46F68C3E2D0CD2FF00F8A54D /* Project object */;
+			containerPortal = F02B640476AF31781853770C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46F68C452D0CD2FF00F8A54D;
+			remoteGlobalIDString = 0419FA5CEA44757870038AF6;
 			remoteInfo = "TurtleApp-iOS";
 		};
-		46F68C672D0CD30200F8A54D /* PBXContainerItemProxy */ = {
+		C87C91AFF8DF570CAA962B40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46F68C3E2D0CD2FF00F8A54D /* Project object */;
+			containerPortal = F02B640476AF31781853770C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46F68C452D0CD2FF00F8A54D;
+			remoteGlobalIDString = 0419FA5CEA44757870038AF6;
 			remoteInfo = "TurtleApp-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		46F68D242D0CDC4100F8A54D /* Embed Foundation Extensions */ = {
+		A8E500F9B8EA1F3BEDD0B9BE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstSubfolderSpec = 10;
 			files = (
 			);
-			name = "Embed Foundation Extensions";
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED53120D750A3A939D845610 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED61702251BAD4F7F8E12BFC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		46F68C462D0CD2FF00F8A54D /* TurtleApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TurtleApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46F68C5C2D0CD30200F8A54D /* TurtleApp-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TurtleApp-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46F68C662D0CD30200F8A54D /* TurtleApp-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TurtleApp-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0062CEAC320117294049E7E2 /* TurtleApp-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TurtleApp-iOS-Info.plist"; sourceTree = "<group>"; };
+		06E58AA509AAAC13535F55D6 /* TurtleAppIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleAppIOSApp.swift; sourceTree = "<group>"; };
+		0C0CC42F902E2D69D48D0CA9 /* TuistBundle+TurtleAppIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TurtleAppIOS.swift"; sourceTree = "<group>"; };
+		134670F6BD169E25DBD48C2B /* TurtleApp_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurtleApp_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EC0D76860D823EC54540DD /* TuistAssets+TurtleAppIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+TurtleAppIOS.swift"; sourceTree = "<group>"; };
+		2456F2E3B1FA4C11E30ACF5E /* TurtleApp_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleApp_iOSUITests.swift; sourceTree = "<group>"; };
+		254067DD9B69D794DE1F6A70 /* TurtleApp-iOSUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TurtleApp-iOSUITests-Info.plist"; sourceTree = "<group>"; };
+		35F443045E21F9157D277E61 /* TurtleApp_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleApp_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AA0341F4170CDA547EADC1B /* SettingsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsState.swift; sourceTree = "<group>"; };
+		4147F823C3D331AF249D29B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4945565C051EB93794389DF4 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		8C280E36BC83E3D92D288BFC /* TurtleApp_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurtleApp_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9862A92F03D8D056B5310E15 /* TurtleApp_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleApp_iOSTests.swift; sourceTree = "<group>"; };
+		98A118A28F2125653D6A9330 /* TurtleApp_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurtleApp_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66F645031245ADCDA819A85 /* Tabbable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbable.swift; sourceTree = "<group>"; };
+		C43101018700DF70DA131300 /* TurtleApp-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TurtleApp-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		E66FCB3CAE23932F96567173 /* ScheduleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleState.swift; sourceTree = "<group>"; };
+		ED664B5DA8A0CE690952EDED /* ScheduleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleScreen.swift; sourceTree = "<group>"; };
+		F46B7389ED48D045BB5AC36D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F948C0792D3B4E922A4B43EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		46F68C6E2D0CD30200F8A54D /* Exceptions for "TurtleApp-iOS" folder in "TurtleApp-iOS" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Application/Info.plist,
-			);
-			target = 46F68C452D0CD2FF00F8A54D /* TurtleApp-iOS */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		46F68C482D0CD2FF00F8A54D /* TurtleApp-iOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				46F68C6E2D0CD30200F8A54D /* Exceptions for "TurtleApp-iOS" folder in "TurtleApp-iOS" target */,
-			);
-			path = "TurtleApp-iOS";
-			sourceTree = "<group>";
-		};
-		46F68C5F2D0CD30200F8A54D /* TurtleApp-iOSTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "TurtleApp-iOSTests";
-			sourceTree = "<group>";
-		};
-		46F68C692D0CD30200F8A54D /* TurtleApp-iOSUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "TurtleApp-iOSUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		46F68C432D0CD2FF00F8A54D /* Frameworks */ = {
+		2FAD969C25DEFE2C5620DCA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46F68C592D0CD30200F8A54D /* Frameworks */ = {
+		76927359E8967906A4ADAF3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46F68C632D0CD30200F8A54D /* Frameworks */ = {
+		C3AC075E3142C39AF5814C37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,272 +121,356 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46F68C3D2D0CD2FF00F8A54D = {
+		1F22B0927C3F149AF29FD0F4 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				46F68C482D0CD2FF00F8A54D /* TurtleApp-iOS */,
-				46F68C5F2D0CD30200F8A54D /* TurtleApp-iOSTests */,
-				46F68C692D0CD30200F8A54D /* TurtleApp-iOSUITests */,
-				46F68C472D0CD2FF00F8A54D /* Products */,
+				4945565C051EB93794389DF4 /* SettingsScreen.swift */,
+				3AA0341F4170CDA547EADC1B /* SettingsState.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		201413299FAE7DB7622DF918 /* TurtleApp-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2456F2E3B1FA4C11E30ACF5E /* TurtleApp_iOSUITests.swift */,
+				35F443045E21F9157D277E61 /* TurtleApp_iOSUITestsLaunchTests.swift */,
+			);
+			path = "TurtleApp-iOSUITests";
+			sourceTree = "<group>";
+		};
+		27519EE973E0757DA3CA5D32 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				C79904A702DA215E971C0041 /* Schedule */,
+				1F22B0927C3F149AF29FD0F4 /* Settings */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		2AB0A2F0E5C3677691A351AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134670F6BD169E25DBD48C2B /* TurtleApp_iOS.app */,
+				8C280E36BC83E3D92D288BFC /* TurtleApp_iOSTests.xctest */,
+				98A118A28F2125653D6A9330 /* TurtleApp_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303BB46A0C969A92D16F2C24 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				0062CEAC320117294049E7E2 /* TurtleApp-iOS-Info.plist */,
+				C43101018700DF70DA131300 /* TurtleApp-iOSTests-Info.plist */,
+				254067DD9B69D794DE1F6A70 /* TurtleApp-iOSUITests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		5693C33847C7693D0104B872 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				22EC0D76860D823EC54540DD /* TuistAssets+TurtleAppIOS.swift */,
+				0C0CC42F902E2D69D48D0CA9 /* TuistBundle+TurtleAppIOS.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7ABDF2713EE282BE98848F89 /* TurtleApp-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9862A92F03D8D056B5310E15 /* TurtleApp_iOSTests.swift */,
+			);
+			path = "TurtleApp-iOSTests";
+			sourceTree = "<group>";
+		};
+		9C0CB5E3312AD6F14C1C6A31 /* TurtleApp-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C69649FD8C85E1F109297BAC /* Application */,
+				27519EE973E0757DA3CA5D32 /* Flows */,
+				E5439898C32B04578560C1B8 /* Packages */,
+				EF83ABE63419BA25FCB01489 /* Resources */,
+			);
+			path = "TurtleApp-iOS";
+			sourceTree = "<group>";
+		};
+		9C7289B512ADDA36C88F3A55 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				D88AC8CB224A93C461F4CC36 /* Derived */,
+				9C0CB5E3312AD6F14C1C6A31 /* TurtleApp-iOS */,
+				7ABDF2713EE282BE98848F89 /* TurtleApp-iOSTests */,
+				201413299FAE7DB7622DF918 /* TurtleApp-iOSUITests */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		A890ADB9A5E8158857F7E827 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A66F645031245ADCDA819A85 /* Tabbable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C69649FD8C85E1F109297BAC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F46B7389ED48D045BB5AC36D /* ContentView.swift */,
+				06E58AA509AAAC13535F55D6 /* TurtleAppIOSApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C79904A702DA215E971C0041 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				ED664B5DA8A0CE690952EDED /* ScheduleScreen.swift */,
+				E66FCB3CAE23932F96567173 /* ScheduleState.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		CCD08C1E263BAEE17D4F93DD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A890ADB9A5E8158857F7E827 /* Protocols */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D88AC8CB224A93C461F4CC36 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				303BB46A0C969A92D16F2C24 /* InfoPlists */,
+				5693C33847C7693D0104B872 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		E2EA33F7D09B36832A0A00B0 = {
+			isa = PBXGroup;
+			children = (
+				9C7289B512ADDA36C88F3A55 /* Project */,
+				2AB0A2F0E5C3677691A351AE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		46F68C472D0CD2FF00F8A54D /* Products */ = {
+		E5439898C32B04578560C1B8 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				46F68C462D0CD2FF00F8A54D /* TurtleApp-iOS.app */,
-				46F68C5C2D0CD30200F8A54D /* TurtleApp-iOSTests.xctest */,
-				46F68C662D0CD30200F8A54D /* TurtleApp-iOSUITests.xctest */,
+				CCD08C1E263BAEE17D4F93DD /* UI */,
 			);
-			name = Products;
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		EF83ABE63419BA25FCB01489 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3408C0417EA6A5D81586F99 /* Preview Content */,
+				F948C0792D3B4E922A4B43EE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3408C0417EA6A5D81586F99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4147F823C3D331AF249D29B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46F68C452D0CD2FF00F8A54D /* TurtleApp-iOS */ = {
+		0419FA5CEA44757870038AF6 /* TurtleApp-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46F68C6F2D0CD30200F8A54D /* Build configuration list for PBXNativeTarget "TurtleApp-iOS" */;
+			buildConfigurationList = 92A17CC4FA8C581E65B2D43E /* Build configuration list for PBXNativeTarget "TurtleApp-iOS" */;
 			buildPhases = (
-				46F68C422D0CD2FF00F8A54D /* Sources */,
-				46F68C432D0CD2FF00F8A54D /* Frameworks */,
-				46F68C442D0CD2FF00F8A54D /* Resources */,
-				46F68D242D0CDC4100F8A54D /* Embed Foundation Extensions */,
+				9261E9F762FD124A46EFF938 /* Sources */,
+				857C0B53616CC39481E65F06 /* Resources */,
+				C3AC075E3142C39AF5814C37 /* Frameworks */,
+				ED53120D750A3A939D845610 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				46F68C482D0CD2FF00F8A54D /* TurtleApp-iOS */,
 			);
 			name = "TurtleApp-iOS";
 			packageProductDependencies = (
 			);
-			productName = "TurtleApp-iOS";
-			productReference = 46F68C462D0CD2FF00F8A54D /* TurtleApp-iOS.app */;
+			productName = TurtleApp_iOS;
+			productReference = 134670F6BD169E25DBD48C2B /* TurtleApp_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		46F68C5B2D0CD30200F8A54D /* TurtleApp-iOSTests */ = {
+		5A1D9E8E3B2BEEDBBFB605D6 /* TurtleApp-iOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46F68C742D0CD30200F8A54D /* Build configuration list for PBXNativeTarget "TurtleApp-iOSTests" */;
+			buildConfigurationList = B1604C564B7B41AD1211E851 /* Build configuration list for PBXNativeTarget "TurtleApp-iOSUITests" */;
 			buildPhases = (
-				46F68C582D0CD30200F8A54D /* Sources */,
-				46F68C592D0CD30200F8A54D /* Frameworks */,
-				46F68C5A2D0CD30200F8A54D /* Resources */,
+				A1CFA895E068DF4C4B284F5E /* Sources */,
+				5CF196A99D1F1BD67BF5E841 /* Resources */,
+				76927359E8967906A4ADAF3F /* Frameworks */,
+				A8E500F9B8EA1F3BEDD0B9BE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46F68C5E2D0CD30200F8A54D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				46F68C5F2D0CD30200F8A54D /* TurtleApp-iOSTests */,
-			);
-			name = "TurtleApp-iOSTests";
-			packageProductDependencies = (
-			);
-			productName = "TurtleApp-iOSTests";
-			productReference = 46F68C5C2D0CD30200F8A54D /* TurtleApp-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		46F68C652D0CD30200F8A54D /* TurtleApp-iOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46F68C772D0CD30200F8A54D /* Build configuration list for PBXNativeTarget "TurtleApp-iOSUITests" */;
-			buildPhases = (
-				46F68C622D0CD30200F8A54D /* Sources */,
-				46F68C632D0CD30200F8A54D /* Frameworks */,
-				46F68C642D0CD30200F8A54D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46F68C682D0CD30200F8A54D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				46F68C692D0CD30200F8A54D /* TurtleApp-iOSUITests */,
+				B433786B06C74A635A353D4A /* PBXTargetDependency */,
 			);
 			name = "TurtleApp-iOSUITests";
 			packageProductDependencies = (
 			);
-			productName = "TurtleApp-iOSUITests";
-			productReference = 46F68C662D0CD30200F8A54D /* TurtleApp-iOSUITests.xctest */;
+			productName = TurtleApp_iOSUITests;
+			productReference = 98A118A28F2125653D6A9330 /* TurtleApp_iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		92CBC966D21D2009CBA6DB89 /* TurtleApp-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6144D693BB528CEC7199009 /* Build configuration list for PBXNativeTarget "TurtleApp-iOSTests" */;
+			buildPhases = (
+				55E106A14B999B438C134C4A /* Sources */,
+				1E3C77CCEF381E5AC58E3FBF /* Resources */,
+				2FAD969C25DEFE2C5620DCA2 /* Frameworks */,
+				ED61702251BAD4F7F8E12BFC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72E1472ABB7CB49F9A31C663 /* PBXTargetDependency */,
+			);
+			name = "TurtleApp-iOSTests";
+			packageProductDependencies = (
+			);
+			productName = TurtleApp_iOSTests;
+			productReference = 8C280E36BC83E3D92D288BFC /* TurtleApp_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		46F68C3E2D0CD2FF00F8A54D /* Project object */ = {
+		F02B640476AF31781853770C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				BuildIndependentTargetsInParallel = YES;
 				TargetAttributes = {
-					46F68C452D0CD2FF00F8A54D = {
-						CreatedOnToolsVersion = 16.0;
+					5A1D9E8E3B2BEEDBBFB605D6 = {
+						TestTargetID = 0419FA5CEA44757870038AF6;
 					};
-					46F68C5B2D0CD30200F8A54D = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 46F68C452D0CD2FF00F8A54D;
-					};
-					46F68C652D0CD30200F8A54D = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 46F68C452D0CD2FF00F8A54D;
+					92CBC966D21D2009CBA6DB89 = {
+						TestTargetID = 0419FA5CEA44757870038AF6;
 					};
 				};
 			};
-			buildConfigurationList = 46F68C412D0CD2FF00F8A54D /* Build configuration list for PBXProject "TurtleApp-iOS" */;
+			buildConfigurationList = A149F5EEDA5CF2428DB531B2 /* Build configuration list for PBXProject "TurtleApp-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 46F68C3D2D0CD2FF00F8A54D;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 46F68C472D0CD2FF00F8A54D /* Products */;
+			mainGroup = E2EA33F7D09B36832A0A00B0;
+			productRefGroup = 2AB0A2F0E5C3677691A351AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46F68C452D0CD2FF00F8A54D /* TurtleApp-iOS */,
-				46F68C5B2D0CD30200F8A54D /* TurtleApp-iOSTests */,
-				46F68C652D0CD30200F8A54D /* TurtleApp-iOSUITests */,
+				0419FA5CEA44757870038AF6 /* TurtleApp-iOS */,
+				92CBC966D21D2009CBA6DB89 /* TurtleApp-iOSTests */,
+				5A1D9E8E3B2BEEDBBFB605D6 /* TurtleApp-iOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46F68C442D0CD2FF00F8A54D /* Resources */ = {
+		1E3C77CCEF381E5AC58E3FBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46F68C5A2D0CD30200F8A54D /* Resources */ = {
+		5CF196A99D1F1BD67BF5E841 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46F68C642D0CD30200F8A54D /* Resources */ = {
+		857C0B53616CC39481E65F06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39FEA22F3F1534F88532819A /* Assets.xcassets in Resources */,
+				431ACB01BD1BF51DED85BCDE /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46F68C422D0CD2FF00F8A54D /* Sources */ = {
+		55E106A14B999B438C134C4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5E8285166B8C82F1DA649F /* TurtleApp_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46F68C582D0CD30200F8A54D /* Sources */ = {
+		9261E9F762FD124A46EFF938 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AE27B8E718059F76F64CE0 /* TuistAssets+TurtleAppIOS.swift in Sources */,
+				AC8C090B5E5E50FD02C03425 /* TuistBundle+TurtleAppIOS.swift in Sources */,
+				24DECAFCBB241B4BAAF5F13E /* ContentView.swift in Sources */,
+				2C25144683E0ADD221296D26 /* TurtleAppIOSApp.swift in Sources */,
+				897419B6F33E8633078AD789 /* ScheduleScreen.swift in Sources */,
+				11AD8E4A42EA476975CED859 /* ScheduleState.swift in Sources */,
+				0219B76E148E2163641D4D6D /* SettingsScreen.swift in Sources */,
+				35E0B994CA7BC19A7DB78CB1 /* SettingsState.swift in Sources */,
+				6409DCCAF46598F218C43314 /* Tabbable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46F68C622D0CD30200F8A54D /* Sources */ = {
+		A1CFA895E068DF4C4B284F5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9AA76C46A7EEB69D87BB6B9 /* TurtleApp_iOSUITests.swift in Sources */,
+				7C0DC9FD82E12B977738A170 /* TurtleApp_iOSUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46F68C5E2D0CD30200F8A54D /* PBXTargetDependency */ = {
+		72E1472ABB7CB49F9A31C663 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46F68C452D0CD2FF00F8A54D /* TurtleApp-iOS */;
-			targetProxy = 46F68C5D2D0CD30200F8A54D /* PBXContainerItemProxy */;
+			name = "TurtleApp-iOS";
+			target = 0419FA5CEA44757870038AF6 /* TurtleApp-iOS */;
+			targetProxy = 5FBCEAC32D425A83AFC39223 /* PBXContainerItemProxy */;
 		};
-		46F68C682D0CD30200F8A54D /* PBXTargetDependency */ = {
+		B433786B06C74A635A353D4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46F68C452D0CD2FF00F8A54D /* TurtleApp-iOS */;
-			targetProxy = 46F68C672D0CD30200F8A54D /* PBXContainerItemProxy */;
+			name = "TurtleApp-iOS";
+			target = 0419FA5CEA44757870038AF6 /* TurtleApp-iOS */;
+			targetProxy = C87C91AFF8DF570CAA962B40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		46F68C702D0CD30200F8A54D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73AGDSA9QN;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TurtleApp-iOS/Application/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Turtle;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ChebuTeam.TurtleApp-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		46F68C712D0CD30200F8A54D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73AGDSA9QN;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TurtleApp-iOS/Application/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Turtle;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ChebuTeam.TurtleApp-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		46F68C722D0CD30200F8A54D /* Debug */ = {
+		5CEE9426D66E37B8B26C360F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -390,11 +497,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -408,25 +515,151 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		46F68C732D0CD30200F8A54D /* Release */ = {
+		B668784CEFE12F8A358B4179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TurtleApp-iOS-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.TurtleApp-iOS";
+				PRODUCT_NAME = TurtleApp_iOS;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C205DC381B5A5D87C347C480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TurtleApp-iOSUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.TurtleApp-iOSUITests";
+				PRODUCT_NAME = TurtleApp_iOSUITests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TurtleApp-iOS";
+			};
+			name = Debug;
+		};
+		C7CA84043F50D3137A564742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TurtleApp-iOSTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.TurtleApp-iOSTests";
+				PRODUCT_NAME = TurtleApp_iOSTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurtleApp_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurtleApp_iOS";
+				TEST_TARGET_NAME = "TurtleApp-iOS";
+			};
+			name = Release;
+		};
+		D764B747ADA0A0E0E09214B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TurtleApp-iOS-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.TurtleApp-iOS";
+				PRODUCT_NAME = TurtleApp_iOS;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E128E79784D20FD90DA435D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TurtleApp-iOSUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.TurtleApp-iOSUITests";
+				PRODUCT_NAME = TurtleApp_iOSUITests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TurtleApp-iOS";
+			};
+			name = Release;
+		};
+		EA8C81DCBFCDB3A2318A7A43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -453,11 +686,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -465,128 +698,82 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		46F68C752D0CD30200F8A54D /* Debug */ = {
+		F2DFFE3E074F7AFF73DCE535 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73AGDSA9QN;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ChebuTeam.TurtleApp-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TurtleApp-iOSTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.tuist.TurtleApp-iOSTests";
+				PRODUCT_NAME = TurtleApp_iOSTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurtleApp-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurtleApp-iOS";
-			};
-			name = Debug;
-		};
-		46F68C762D0CD30200F8A54D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73AGDSA9QN;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ChebuTeam.TurtleApp-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurtleApp-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurtleApp-iOS";
-			};
-			name = Release;
-		};
-		46F68C782D0CD30200F8A54D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73AGDSA9QN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ChebuTeam.TurtleApp-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurtleApp_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurtleApp_iOS";
 				TEST_TARGET_NAME = "TurtleApp-iOS";
 			};
 			name = Debug;
-		};
-		46F68C792D0CD30200F8A54D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73AGDSA9QN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ChebuTeam.TurtleApp-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "TurtleApp-iOS";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46F68C412D0CD2FF00F8A54D /* Build configuration list for PBXProject "TurtleApp-iOS" */ = {
+		92A17CC4FA8C581E65B2D43E /* Build configuration list for PBXNativeTarget "TurtleApp-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46F68C722D0CD30200F8A54D /* Debug */,
-				46F68C732D0CD30200F8A54D /* Release */,
+				D764B747ADA0A0E0E09214B4 /* Debug */,
+				B668784CEFE12F8A358B4179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46F68C6F2D0CD30200F8A54D /* Build configuration list for PBXNativeTarget "TurtleApp-iOS" */ = {
+		A149F5EEDA5CF2428DB531B2 /* Build configuration list for PBXProject "TurtleApp-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46F68C702D0CD30200F8A54D /* Debug */,
-				46F68C712D0CD30200F8A54D /* Release */,
+				5CEE9426D66E37B8B26C360F /* Debug */,
+				EA8C81DCBFCDB3A2318A7A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46F68C742D0CD30200F8A54D /* Build configuration list for PBXNativeTarget "TurtleApp-iOSTests" */ = {
+		B1604C564B7B41AD1211E851 /* Build configuration list for PBXNativeTarget "TurtleApp-iOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46F68C752D0CD30200F8A54D /* Debug */,
-				46F68C762D0CD30200F8A54D /* Release */,
+				C205DC381B5A5D87C347C480 /* Debug */,
+				E128E79784D20FD90DA435D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46F68C772D0CD30200F8A54D /* Build configuration list for PBXNativeTarget "TurtleApp-iOSUITests" */ = {
+		D6144D693BB528CEC7199009 /* Build configuration list for PBXNativeTarget "TurtleApp-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46F68C782D0CD30200F8A54D /* Debug */,
-				46F68C792D0CD30200F8A54D /* Release */,
+				F2DFFE3E074F7AFF73DCE535 /* Debug */,
+				C7CA84043F50D3137A564742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 46F68C3E2D0CD2FF00F8A54D /* Project object */;
+	rootObject = F02B640476AF31781853770C /* Project object */;
 }

@@ -61,4 +61,8 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-#.DS_Store
+*.DS_Store
+*.xcodeproj
+*.xcworkspace
+Derived
+.DS_Store

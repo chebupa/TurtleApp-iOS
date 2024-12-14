@@ -13,13 +13,13 @@ struct ContentView: View {
     
     // MARK: - Properties
     
-    @StateObject var state: ContentState
+    private let tabs: [any Tabbable] = [ScheduleState(), SettingsState()]
     
     // MARK: - Body
     
     var body: some View {
         TabView {
-            ForEach(state.tabs, id: \.id) { tab in
+            ForEach(tabs, id: \.id) { tab in
                 NavigationStack {
                     tab.tabConfig.screen
                         .navigationTitle(tab.tabConfig.title)
@@ -33,5 +33,5 @@ struct ContentView: View {
 // MARK: - Preview
 
 #Preview {
-    ContentView(state: ContentState())
+    ContentView()
 }
