@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0732EDBF7D8D7A50F3A51D1B /* Tabbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA773F4B186F49C35273D28 /* Tabbable.swift */; };
+		0219B76E148E2163641D4D6D /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945565C051EB93794389DF4 /* SettingsScreen.swift */; };
+		11AD8E4A42EA476975CED859 /* ScheduleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66FCB3CAE23932F96567173 /* ScheduleState.swift */; };
 		16AE27B8E718059F76F64CE0 /* TuistAssets+TurtleAppIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC0D76860D823EC54540DD /* TuistAssets+TurtleAppIOS.swift */; };
+		24DECAFCBB241B4BAAF5F13E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B7389ED48D045BB5AC36D /* ContentView.swift */; };
+		2C25144683E0ADD221296D26 /* TurtleAppIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E58AA509AAAC13535F55D6 /* TurtleAppIOSApp.swift */; };
+		35E0B994CA7BC19A7DB78CB1 /* SettingsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0341F4170CDA547EADC1B /* SettingsState.swift */; };
 		39FEA22F3F1534F88532819A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F948C0792D3B4E922A4B43EE /* Assets.xcassets */; };
 		431ACB01BD1BF51DED85BCDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4147F823C3D331AF249D29B9 /* Preview Assets.xcassets */; };
-		4B4D5768CFA1BD1559420925 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3057E1E58CCC7BD351CE556D /* SettingsScreen.swift */; };
-		4FE0C9E5AF4F9A278BF868C2 /* ScheduleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F00DDCC95F2C3E05A6FE82 /* ScheduleScreen.swift */; };
-		51A321CD8A8D2BD9E3219D26 /* TurtleAppIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A7A1DFFF0245B89DDBA292 /* TurtleAppIOSApp.swift */; };
+		6409DCCAF46598F218C43314 /* Tabbable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F645031245ADCDA819A85 /* Tabbable.swift */; };
 		7B5E8285166B8C82F1DA649F /* TurtleApp_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862A92F03D8D056B5310E15 /* TurtleApp_iOSTests.swift */; };
 		7C0DC9FD82E12B977738A170 /* TurtleApp_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F443045E21F9157D277E61 /* TurtleApp_iOSUITestsLaunchTests.swift */; };
+		897419B6F33E8633078AD789 /* ScheduleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED664B5DA8A0CE690952EDED /* ScheduleScreen.swift */; };
 		AC8C090B5E5E50FD02C03425 /* TuistBundle+TurtleAppIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0CC42F902E2D69D48D0CA9 /* TuistBundle+TurtleAppIOS.swift */; };
 		B9AA76C46A7EEB69D87BB6B9 /* TurtleApp_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456F2E3B1FA4C11E30ACF5E /* TurtleApp_iOSUITests.swift */; };
-		C8652FD0B5E0E9213D41097B /* SettingsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB5F2603E1C36A6E3060EA1 /* SettingsState.swift */; };
-		CADAF55793624BD8CDB2F260 /* ScheduleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD99FBF237F49C7BA35818 /* ScheduleState.swift */; };
-		CDE2410E2A6B21CBE36231E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CEB5EBACDD125DCD36544 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,24 +75,24 @@
 
 /* Begin PBXFileReference section */
 		0062CEAC320117294049E7E2 /* TurtleApp-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TurtleApp-iOS-Info.plist"; sourceTree = "<group>"; };
+		06E58AA509AAAC13535F55D6 /* TurtleAppIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleAppIOSApp.swift; sourceTree = "<group>"; };
 		0C0CC42F902E2D69D48D0CA9 /* TuistBundle+TurtleAppIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TurtleAppIOS.swift"; sourceTree = "<group>"; };
 		134670F6BD169E25DBD48C2B /* TurtleApp_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurtleApp_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EC0D76860D823EC54540DD /* TuistAssets+TurtleAppIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+TurtleAppIOS.swift"; sourceTree = "<group>"; };
 		2456F2E3B1FA4C11E30ACF5E /* TurtleApp_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleApp_iOSUITests.swift; sourceTree = "<group>"; };
 		254067DD9B69D794DE1F6A70 /* TurtleApp-iOSUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TurtleApp-iOSUITests-Info.plist"; sourceTree = "<group>"; };
-		3057E1E58CCC7BD351CE556D /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		35F443045E21F9157D277E61 /* TurtleApp_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleApp_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AA0341F4170CDA547EADC1B /* SettingsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsState.swift; sourceTree = "<group>"; };
 		4147F823C3D331AF249D29B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5FAD99FBF237F49C7BA35818 /* ScheduleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleState.swift; sourceTree = "<group>"; };
-		71F00DDCC95F2C3E05A6FE82 /* ScheduleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleScreen.swift; sourceTree = "<group>"; };
+		4945565C051EB93794389DF4 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		8C280E36BC83E3D92D288BFC /* TurtleApp_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurtleApp_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C3CEB5EBACDD125DCD36544 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9862A92F03D8D056B5310E15 /* TurtleApp_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleApp_iOSTests.swift; sourceTree = "<group>"; };
 		98A118A28F2125653D6A9330 /* TurtleApp_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurtleApp_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66F645031245ADCDA819A85 /* Tabbable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbable.swift; sourceTree = "<group>"; };
 		C43101018700DF70DA131300 /* TurtleApp-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TurtleApp-iOSTests-Info.plist"; sourceTree = "<group>"; };
-		DDA773F4B186F49C35273D28 /* Tabbable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbable.swift; sourceTree = "<group>"; };
-		DFB5F2603E1C36A6E3060EA1 /* SettingsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsState.swift; sourceTree = "<group>"; };
-		E3A7A1DFFF0245B89DDBA292 /* TurtleAppIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleAppIOSApp.swift; sourceTree = "<group>"; };
+		E66FCB3CAE23932F96567173 /* ScheduleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleState.swift; sourceTree = "<group>"; };
+		ED664B5DA8A0CE690952EDED /* ScheduleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleScreen.swift; sourceTree = "<group>"; };
+		F46B7389ED48D045BB5AC36D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F948C0792D3B4E922A4B43EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F22B0927C3F149AF29FD0F4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4945565C051EB93794389DF4 /* SettingsScreen.swift */,
+				3AA0341F4170CDA547EADC1B /* SettingsState.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		201413299FAE7DB7622DF918 /* TurtleApp-iOSUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,13 +139,13 @@
 			path = "TurtleApp-iOSUITests";
 			sourceTree = "<group>";
 		};
-		291F82A79DDA9810FBECA91B /* Schedule */ = {
+		27519EE973E0757DA3CA5D32 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
-				71F00DDCC95F2C3E05A6FE82 /* ScheduleScreen.swift */,
-				5FAD99FBF237F49C7BA35818 /* ScheduleState.swift */,
+				C79904A702DA215E971C0041 /* Schedule */,
+				1F22B0927C3F149AF29FD0F4 /* Settings */,
 			);
-			path = Schedule;
+			path = Flows;
 			sourceTree = "<group>";
 		};
 		2AB0A2F0E5C3677691A351AE /* Products */ = {
@@ -159,23 +168,6 @@
 			path = InfoPlists;
 			sourceTree = "<group>";
 		};
-		34A8DE7FB5E6E640DCEC308D /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				3057E1E58CCC7BD351CE556D /* SettingsScreen.swift */,
-				DFB5F2603E1C36A6E3060EA1 /* SettingsState.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		5323E2B82993BCB295A6EAD1 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				59A96E2CC4B67F1CCA057F07 /* Protocols */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
 		5693C33847C7693D0104B872 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,22 +175,6 @@
 				0C0CC42F902E2D69D48D0CA9 /* TuistBundle+TurtleAppIOS.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		59A96E2CC4B67F1CCA057F07 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				DDA773F4B186F49C35273D28 /* Tabbable.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		7084586FBB0014EB6830EB86 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				5323E2B82993BCB295A6EAD1 /* UI */,
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 		7ABDF2713EE282BE98848F89 /* TurtleApp-iOSTests */ = {
@@ -209,20 +185,13 @@
 			path = "TurtleApp-iOSTests";
 			sourceTree = "<group>";
 		};
-		9673975BC65701AF7678B89A /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				8C3CEB5EBACDD125DCD36544 /* ContentView.swift */,
-				E3A7A1DFFF0245B89DDBA292 /* TurtleAppIOSApp.swift */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
 		9C0CB5E3312AD6F14C1C6A31 /* TurtleApp-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C69649FD8C85E1F109297BAC /* Application */,
+				27519EE973E0757DA3CA5D32 /* Flows */,
+				E5439898C32B04578560C1B8 /* Packages */,
 				EF83ABE63419BA25FCB01489 /* Resources */,
-				9D65F92FE9C3F2D5F038A917 /* Sources */,
 			);
 			path = "TurtleApp-iOS";
 			sourceTree = "<group>";
@@ -238,23 +207,38 @@
 			name = Project;
 			sourceTree = "<group>";
 		};
-		9D65F92FE9C3F2D5F038A917 /* Sources */ = {
+		A890ADB9A5E8158857F7E827 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				9673975BC65701AF7678B89A /* Application */,
-				B956F912BCF8F5A3D6983065 /* Flows */,
-				7084586FBB0014EB6830EB86 /* Packages */,
+				A66F645031245ADCDA819A85 /* Tabbable.swift */,
 			);
-			path = Sources;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
-		B956F912BCF8F5A3D6983065 /* Flows */ = {
+		C69649FD8C85E1F109297BAC /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				291F82A79DDA9810FBECA91B /* Schedule */,
-				34A8DE7FB5E6E640DCEC308D /* Settings */,
+				F46B7389ED48D045BB5AC36D /* ContentView.swift */,
+				06E58AA509AAAC13535F55D6 /* TurtleAppIOSApp.swift */,
 			);
-			path = Flows;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C79904A702DA215E971C0041 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				ED664B5DA8A0CE690952EDED /* ScheduleScreen.swift */,
+				E66FCB3CAE23932F96567173 /* ScheduleState.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		CCD08C1E263BAEE17D4F93DD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A890ADB9A5E8158857F7E827 /* Protocols */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		D88AC8CB224A93C461F4CC36 /* Derived */ = {
@@ -272,6 +256,14 @@
 				9C7289B512ADDA36C88F3A55 /* Project */,
 				2AB0A2F0E5C3677691A351AE /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		E5439898C32B04578560C1B8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CCD08C1E263BAEE17D4F93DD /* UI */,
+			);
+			path = Packages;
 			sourceTree = "<group>";
 		};
 		EF83ABE63419BA25FCB01489 /* Resources */ = {
@@ -433,13 +425,13 @@
 			files = (
 				16AE27B8E718059F76F64CE0 /* TuistAssets+TurtleAppIOS.swift in Sources */,
 				AC8C090B5E5E50FD02C03425 /* TuistBundle+TurtleAppIOS.swift in Sources */,
-				CDE2410E2A6B21CBE36231E8 /* ContentView.swift in Sources */,
-				51A321CD8A8D2BD9E3219D26 /* TurtleAppIOSApp.swift in Sources */,
-				4FE0C9E5AF4F9A278BF868C2 /* ScheduleScreen.swift in Sources */,
-				CADAF55793624BD8CDB2F260 /* ScheduleState.swift in Sources */,
-				4B4D5768CFA1BD1559420925 /* SettingsScreen.swift in Sources */,
-				C8652FD0B5E0E9213D41097B /* SettingsState.swift in Sources */,
-				0732EDBF7D8D7A50F3A51D1B /* Tabbable.swift in Sources */,
+				24DECAFCBB241B4BAAF5F13E /* ContentView.swift in Sources */,
+				2C25144683E0ADD221296D26 /* TurtleAppIOSApp.swift in Sources */,
+				897419B6F33E8633078AD789 /* ScheduleScreen.swift in Sources */,
+				11AD8E4A42EA476975CED859 /* ScheduleState.swift in Sources */,
+				0219B76E148E2163641D4D6D /* SettingsScreen.swift in Sources */,
+				35E0B994CA7BC19A7DB78CB1 /* SettingsState.swift in Sources */,
+				6409DCCAF46598F218C43314 /* Tabbable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

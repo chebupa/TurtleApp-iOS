@@ -16,7 +16,7 @@ let project = Project(
                     ],
                 ]
             ),
-            sources: ["TurtleApp-iOS/Sources/**"],
+            sources: ["TurtleApp-iOS/**"],
             resources: ["TurtleApp-iOS/Resources/**"],
             dependencies: []
         ),

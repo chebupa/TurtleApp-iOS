@@ -8,7 +8,7 @@ let tuist = Tuist(project: .tuist(
     generationOptions: .options(
         resolveDependenciesWithSystemScm: false,
         disablePackageVersionLocking: false,
-        clonedSourcePackagesDirPath: .relativeToRoot(""),
+        clonedSourcePackagesDirPath: nil,
         staticSideEffectsWarningTargets: .all,
         defaultConfiguration: nil,
         optionalAuthentication: false
