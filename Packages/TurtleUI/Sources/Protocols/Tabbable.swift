@@ -18,8 +18,14 @@ public protocol Tabbable: AnyObject, Identifiable {
 
 public struct TabConfig {
     
-    var title: String
-    var image: String
+    public var title: String
+    public var image: String
     
-    var screen: AnyView
+    public var screen: AnyView
+    
+    public init(title: String, image: String, screen: AnyView) {
+        self.title = title
+        self.image = image
+        self.screen = screen
+    }
 }

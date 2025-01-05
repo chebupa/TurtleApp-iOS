@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct ScheduleScreen: View {
+public struct ScheduleScreen: View {
     
     @StateObject var state: ScheduleState
     
-    var body: some View {
+    public var body: some View {
         Text("Schedule")
     }
 }
