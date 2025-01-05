@@ -9,7 +9,7 @@ import SwiftUI
 
 // MARK: - Screen
 
-struct SettingsScreen: View {
+public struct SettingsScreen: View {
     
     // MARK: - Properties
     
@@ -17,7 +17,7 @@ struct SettingsScreen: View {
     
     // MARK: - Body
     
-    var body: some View {
+    public var body: some View {
         Text("Settings")
     }
 }

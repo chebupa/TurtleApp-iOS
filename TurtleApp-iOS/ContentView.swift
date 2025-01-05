@@ -6,16 +6,18 @@
 //
 
 import SwiftUI
+import TurtleUI
+import TurtleModules
 
 // MARK: - View
 
 struct ContentView: View {
     
-    // MARK: - Properties
+    // MARK: Properties
     
     private let tabs: [any Tabbable] = [ScheduleState(), SettingsState()]
     
-    // MARK: - Body
+    // MARK: Body
     
     var body: some View {
         TabView {
