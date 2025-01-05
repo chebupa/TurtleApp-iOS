@@ -9,4 +9,7 @@ tuist generate
 ```
 
 # Requirements
-- iOS: 16.0+
+- iOS 16.0+
+- Swift 5
+- Xcode 16
+- Tuist 4.37.0
