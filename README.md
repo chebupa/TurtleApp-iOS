@@ -1,5 +1,5 @@
 # TurtleApp iOS
-iOS App for viewing RKSI schedule. Written on pure SwiftUI
+iOS App for viewing RKSI schedule. Written on UIKit + SwiftUI (MVVM-C + RxSwift).
 
 # Build
 ```sh
