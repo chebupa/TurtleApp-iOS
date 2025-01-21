@@ -5,6 +5,7 @@ struct TurtleAppIOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .tint(.green)
         }
     }
 }
