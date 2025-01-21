@@ -38,7 +38,7 @@ public struct SubjectWidget: View {
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(.gray.opacity(0.1))
-                    .roundedBorder(cornerRadius: 24, lineWidth: 1, color: .black.opacity(0.5))
+                    .roundedBorder(cornerRadius: 24, lineWidth: 0.5, color: .black.opacity(0.5))
             }
         } else {
             HStack(alignment: .top) {
@@ -48,7 +48,7 @@ public struct SubjectWidget: View {
             .padding()
             .frame(maxWidth: .infinity)
             .background(.gray.opacity(0.1))
-            .roundedBorder(cornerRadius: 24, lineWidth: 1, color: .black.opacity(0.5))
+            .roundedBorder(cornerRadius: 24, lineWidth: 0.5, color: .black.opacity(0.5))
         }
     }
     
@@ -86,8 +86,8 @@ public struct SubjectWidget: View {
                 .padding(4)
                 .padding(.leading, 6)
                 .frame(maxWidth: .infinity, alignment: .leading)
-//                .background(.green.opacity(0.8))
-//                .clipShape(.capsule)
+                .background(.green.opacity(0.8))
+                .clipShape(.capsule)
             Group {
                 TALabel(text: "ИС-23", image: .init(.system("graduationcap")))
                 TALabel(text: "с/36", image: .init(.system("key")))
